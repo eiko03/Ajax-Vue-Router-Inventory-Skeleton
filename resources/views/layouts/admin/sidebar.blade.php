@@ -1,6 +1,6 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link">
+    <a href="" class="brand-link">
         <img src="/images/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
              style="opacity: .8">
         <span class="brand-text font-weight-light">AdminLTE</span>
@@ -14,7 +14,7 @@
                 <img src="/images/AdminLTELogo.png" class="img-circle elevation-2" alt="User Image">
             </div>
             <div class="info">
-                <a class="d-block" href="#">{{ Auth::user()->name }}</a>
+                <a class="d-block" href="">{{ Auth::user()->name }}</a>
             </div>
         </div>
 
@@ -36,6 +36,26 @@
                         <p>Users</p>
                     </router-link>
                 </li>
+            
+            <li class="nav-item">
+                <p href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle nav-link"><i class="nav-icon fas fa-th"></i>Home</p>
+                <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <li>
+                        <a href="#">Home 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Home 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Home 3</a>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li>
+                
+        
 
             </ul>
         </nav>
